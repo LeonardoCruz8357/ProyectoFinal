@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+        <link rel="stylesheet" href="Proyectofinal.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cantarell&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+        
+
+   <header class="fondo">
+      
+            <div class="botones">
+                   <a id="botonInicio" type="button">INICIO</a>
+                   <a href="#presentacion" id="botonSobremi" type="button">SOBRE MI</a>
+                   <a href="#curriculum" id="botonCurriculum" type="button">CURRICULUM</a>
+                   <a href="#final" id="botonContacto" type="button">CONTACTO</a>
+            </div>
+                   <h1 id="nombre">JULIAN FERNANDEZ </h1>
+                      <p id="titulo">PROGRAMADOR</p>
+            <div class="mifoto">
+                    <img class="foto1" src="https://www.diariomovil.info/wp-content/uploads/2021/04/programador-17171.jp%C2%B4g.jpg" alt="La imagen no pudo ser cargada">
+            </div>
+      
+    </header>  
+<body class="medio">
+
+        <div>  
+                <div id="presentacion">
+                                <h2 id="sobremi">SOBRE MI</h2>
+                        <div class="parrafopres">
+                        
+                                <p class="p1">Hola, soy Julian Fernandez.Desarrollador web de Cordoba.He desarrollado y colaborado con la industria tech desde hace 3 años. Lo que mas me gusta de la programacion es dar soluciones a problemas que aparentemente son complicados</p>       
+                                <p class="p2">Desarrollador con experiencia en diseño , instalacion, pruebas y mantenimiento de sistemas de software. Dominio de varias plataformas, lenguajes y sistemas integrados. Experiencia en las herramientas y procedimientos de desarrollo mas vanguardista</p>
+                                
+                        </div>
+                </div>
+    
+                <div class="container">
+                         <div class="curriculum" id="curriculum">
+                               <h3 class="titulo3"> EXPERIENCIA</h3>
+                                    <div class="trabajos">
+                                        <div class="trabajo1">
+                                         <h6>REACTJS DEVELOPER, Mayo 2020 - Junio 2021</h6>   
+                                         <p>Descripción de tu experiencia laboral. Describe de forma concisa tu anterior puesto de manera que los lectores puedan hacer una lectura rápida.</p>
+                                        </div>
+                                        <div class="trabajo2">
+                                         <h7>WEB DEVELOPER, Septiembre 2018 - Abril 2020</h7>   
+                                         <p>Descripción de tu experiencia laboral. Describe de forma concisa tu anterior puesto de manera que los lectores puedan hacer una lectura rápida.</p>
+                                        </div>
+                                        <div class="trabajo3">
+                                         <h8>DESARROLLADOR DE SOFTWARE, Septiembre 2016 - Noviembre 2017</h8>     
+                                         <p>Descripción de tu experiencia laboral. Describe de forma concisa tu anterior puesto de manera que los lectores puedan hacer una lectura rápida.</p>
+                                        </div>
+                                    </div>
+                         </div>
+                </div>
+        </div>  
+        
+        </div>
+
+               <div class="final" id="final">
+                    <div class="info1">
+                            <article class="info2">
+                                <h5 style="font-size: 38px">INFO</h5>
+                                        <div class="info3">     
+                                             <div class="tituloinfo">
+                                                     <p>DIRECCION</p>
+                                                     <p>TELEFONO</p>
+                                                     <p>CORREO</p>
+                                             </div>    
+
+                                             <div class="datos">
+                                                     <p>Av. Los Rosales 122 CORDOBA</p>
+                                                     <p>11-4-123-45</p>
+                                                     <p>julianf@misitio.com</p>
+                                             </div>
+                                        </div>
+                            </article>
+                                             <div class="final1">   
+                                                 <h4 style="font-size: 38px;">CONTACTO</h4>
+           
+                                                     <form id="form" action="" method="get">
+                                                         <div>
+                                                             <div class="nombreyapellido">  
+                                                                    <div class="nombre">  
+                                                                      <input id="txt-1" type="text" name="nombre" placeholder="Nombre*" required autocomplete="off">
+                                                                    </div>
+                                                                    <div class="apellido"> 
+                                                                     <input id="txt-2" type="text" name="apellido" placeholder="Apellido*" required autocomplete="off">
+                                                                    </div>                
+                                                             </div>
+               
+                                                                 <div class="email">
+                                                                 <input id="txt-3" type="email" name="email" placeholder="Email*" required autocomplete="off">
+                                                                 </div>
+
+                                                                 <div class="asunto">
+                                                                 <input id="txt-4"  type="text" name="asunto" placeholder="Asunto*">
+                                                                 </div>
+                
+                                                                 <textarea name="mensaje" placeholder="Mensaje*" maxlength="300" spellcheck="true" required autocomplete="off"></textarea>     
+                                                                 <button type="submit" id="botonenviar" disabled >ENVIAR</button> 
+                                                                 <p id="demo"></p>
+                                                                 
+                                                         </div>
+                                                     </form>
+                                                     <script src="proy-fin1.js"></script>
+                                             </div>
+                     </div> 
+                </div>      
+  
+            <footer>
+                    <div class="footer1">
+                        <div>
+                            <div class="redes">
+                                 <a href="#" class="fab fa-linkedin-in"></a>
+                                 <a href="#" class="fab fa-twitter"></a>
+                                 <a href="#" class="fab fa-instagram"></a>
+                                 <a href="#" class="fas fa-at"></a>
+                            </div>
+                                <p class="mensaje" style="font-size: 13px;">Seguime en redes sociales</p>
+
+                        </div>
+                            <div>
+                                <p style="font-size: 13px;">@2023 Creado por Cruz Claudio Leonardo</p>
+                            </div>
+                    </div>        
+            </footer>
+
+         
+    <!--
+    <input id="botonenviar" type="submit" name="enviar" value="ENVIAR"> 
+    -->
+</body>
+
+</html>

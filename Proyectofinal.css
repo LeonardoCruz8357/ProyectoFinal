@@ -1,0 +1,405 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.fondo{
+
+    background-image: url(https://www.totvs.com/wp-content/uploads/2021/11/como-se-tornar-um-programador-mobile.jpg);    
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    width: auto;
+    height: 700px;
+
+}
+
+
+header{  
+  text-align: center;
+  padding-top: 40px;
+    
+}
+body{
+    
+    background-color: #EDEFF0;
+}
+
+.botones a{
+
+    font-family: 'Righteous', cursive;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    cursor: pointer;
+    border:none;
+    margin: 15px;
+    margin-top: 1px;
+    padding: 15px 50px;
+    color: white ;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.botones a:hover{
+    background: linear-gradient(90deg, #30bae0 0%, #0316c0 100%);
+    color: rgb(0, 0, 0);
+    
+}
+
+
+
+.mifoto {
+    padding-top: 126px;
+}
+
+.foto1{
+
+    width: 248px;
+    height: 244px;  
+    border: 10px solid white;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 50%;
+    
+
+} 
+
+
+#nombre{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10%;
+
+
+}
+#titulo{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 10%;
+}
+
+#presentacion{
+    
+    
+    padding-top: 10%;
+    height: 680px;
+    margin-top: 65px;
+    margin-left: 10%;
+    margin-right: 15%;
+    
+    
+}
+
+body{
+    font-family: 'Righteous', cursive;
+}
+#sobremi{
+    line-height: 1.2em;
+    font-size: 42px;
+}
+
+.parrafopres{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    line-height: 3em;
+    padding-left: 70px;
+
+    
+}
+
+.parrafopres .p1{
+    padding: 60px;
+}
+
+.curriculum{
+    background-image: url(https://media.ambito.com/p/2a384f8080352cb54e3bb2b7472eb391/adjuntos/239/imagenes/040/076/0040076261/730x0/smart/programacion-freelencejpg.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 700px;
+}
+
+
+.trabajos{
+    display: flex;
+    padding-top: 70px;
+    text-align: center;
+    
+    
+
+}
+
+.titulo3{
+    
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 50px;
+    color: white;
+    line-height: 1.2em;
+    font-size: 42px;
+
+}
+
+.trabajo1 h6{
+    font-size: 15px;
+    margin: 20px;
+    font-family: 'Phudu', cursive;
+}
+
+.trabajo2 h7{
+    font-size: 15px;
+    margin:20px;
+    font-family: 'Phudu', cursive;
+}
+
+.trabajo3 h8{
+    font-size: 15px;
+    margin: 20px;
+    font-family: 'Phudu', cursive;
+
+}
+
+.trabajos p{
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+.trabajo2{
+
+
+    text-align: center;
+    margin: 30px 40px 0px 40px;
+    background-color: #EDEFF5;
+    line-height: 2.5em;
+}
+
+.trabajo1 {
+    
+    text-align: center;
+    margin: 30px 40px 0px 40px;
+    background-color: #EDEFF5;
+    line-height: 2.5em;
+}
+
+.trabajo3{
+
+    text-align: center;
+    margin: 30px 40px 0px 40px;
+    background-color: #EDEFF5;
+    line-height: 2.5em;
+}
+
+
+.final{
+    border-top: 2px solid rgba(0,0,0,1) ;
+}
+.contacto{
+    padding-top: 80px;
+    height: 650px;
+    background-color: #7F4F89;
+}
+
+
+
+
+.info1{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.info2{
+    width: 100%;
+    margin-left: 100px ;
+    padding: 20px;
+}
+
+
+.info3{
+    display: flex;
+    width: 100%;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 3em;
+    padding-top: 72px;
+}
+
+.tituloinfo{
+    padding-right: 20px;
+}
+
+h4{
+    padding: 20px;
+    text-align: center;
+}
+
+.final1{
+    justify-content: center;
+}
+form{
+    
+      
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width : 100%;
+    height: 500px;
+    margin: 10px 20px auto;
+    padding: 3.5em;
+    
+
+    display: grid ;
+    box-sizing: border-box;
+    grid-gap: 13px;
+    grid-template-columns: repeat(auto-fit, min-width(200px,1fr));
+    grid-template-rows:  4em 4em 4em 10em ;
+    border-left: 1px solid #232526;
+    
+
+
+}
+
+textarea{
+
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: white;
+    margin: 30px 0px 0px 0px;
+    resize: horizontal;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+input{
+    padding: 10px 10px;
+    border-radius: 7px;
+}
+
+.nombreyapellido{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+
+    
+}
+.datos p{
+
+    color: rgb(40, 116, 166)
+    
+}
+
+#botonenviar{
+    
+    font-family: 'Righteous', cursive;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    background: rgba(0,0,0,1);
+    padding: 15px 30px;
+    margin: 15px;
+    margin-top: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-weight: bold;
+    
+    
+}
+
+#botonenviar:hover{
+    background: rgba(255,255,255,1);
+    color: rgba(0,0,0,1) ;
+}
+
+.email{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 15px 160px 0px 0px;
+    
+}
+
+.asunto{
+     
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 15px 160px 0px 0px;
+    
+
+    
+}
+
+
+.redes{
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    
+    display: inline-block;
+    margin: 0 5px;
+    height: 50px;
+    cursor: pointer;
+       
+}
+
+.redes a{
+    text-decoration: none;
+    font-size: 28px;
+    color: rgba(255,255,255,1);
+
+}
+
+
+a{
+    padding: 0 20px;
+    
+}
+
+
+.footer1{
+    display: flex;
+    border-top: 5px solid rgb(180,58,58);
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #232526, #414345);
+}
+
+.footer1 p {
+    color: rgba(255,255,255,1);
+}
+
+.mensaje{
+    margin-left: 52px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    header body div form footer{
+         
+      width: 100%;
+}
+}
+
+
+
+
